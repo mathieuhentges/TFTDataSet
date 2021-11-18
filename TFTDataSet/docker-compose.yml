@@ -1,0 +1,27 @@
+version: "3.8"
+
+services:
+  dbtft:
+    image: postgres:12.0-alpine
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=mathieu
+      - POSTGRES_PASSWORD=math
+      - POSTGRES_DB=TFTdataset
+  webtft:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - ./:/usr/src/TftDataSet/
+    ports:
+      - 8000:8000
+    env_file:
+      - ./TFTDataSet/.env
+    depends_on:
+      - dbtft
+
+volumes:
+  postgres_data:

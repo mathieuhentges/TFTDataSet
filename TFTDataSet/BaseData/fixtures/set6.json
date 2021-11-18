@@ -1,0 +1,1621 @@
+[
+  {
+    "model": "BaseData.Traits",
+    "pk": 1,
+    "fields": {
+      "name": "Academy"
+    }
+  },
+  {
+    "model": "BaseData.Traits",
+    "pk": 2,
+    "fields": {
+      "name": "Arcanist"
+    }
+  },
+  {
+    "model": "BaseData.Traits",
+    "pk": 3,
+    "fields": {
+      "name": "Assassin"
+    }
+  },
+  {
+    "model": "BaseData.Traits",
+    "pk": 4,
+    "fields": {
+      "name": "Bodyguard"
+    }
+  },
+  {
+    "model": "BaseData.Traits",
+    "pk": 5,
+    "fields": {
+      "name": "Bruiser"
+    }
+  },
+  {
+    "model": "BaseData.Traits",
+    "pk": 6,
+    "fields": {
+      "name": "Challenger"
+    }
+  },
+  {
+    "model": "BaseData.Traits",
+    "pk": 7,
+    "fields": {
+      "name": "Chemtech"
+    }
+  },
+  {
+    "model": "BaseData.Traits",
+    "pk": 8,
+    "fields": {
+      "name": "Colossus"
+    }
+  },
+  {
+    "model": "BaseData.Traits",
+    "pk": 9,
+    "fields": {
+      "name": "Clockwork"
+    }
+  },
+  {
+    "model": "BaseData.Traits",
+    "pk": 10,
+    "fields": {
+      "name": "Cuddly"
+    }
+  },
+  {
+    "model": "BaseData.Traits",
+    "pk": 11,
+    "fields": {
+      "name": "Enchanter"
+    }
+  },
+  {
+    "model": "BaseData.Traits",
+    "pk": 12,
+    "fields": {
+      "name": "Enforcer"
+    }
+  },
+  {
+    "model": "BaseData.Traits",
+    "pk": 13,
+    "fields": {
+      "name": "Glutton"
+    }
+  },
+  {
+    "model": "BaseData.Traits",
+    "pk": 14,
+    "fields": {
+      "name": "Imperial"
+    }
+  },
+  {
+    "model": "BaseData.Traits",
+    "pk": 15,
+    "fields": {
+      "name": "Innovator"
+    }
+  },
+  {
+    "model": "BaseData.Traits",
+    "pk": 16,
+    "fields": {
+      "name": "Mercenary"
+    }
+  },
+  {
+    "model": "BaseData.Traits",
+    "pk": 17,
+    "fields": {
+      "name": "Mutant"
+    }
+  },
+  {
+    "model": "BaseData.Traits",
+    "pk": 18,
+    "fields": {
+      "name": "Protector"
+    }
+  },
+  {
+    "model": "BaseData.Traits",
+    "pk": 19,
+    "fields": {
+      "name": "Scholar"
+    }
+  },
+  {
+    "model": "BaseData.Traits",
+    "pk": 20,
+    "fields": {
+      "name": "Scrap"
+    }
+  },
+  {
+    "model": "BaseData.Traits",
+    "pk": 21,
+    "fields": {
+      "name": "Sister"
+    }
+  },
+  {
+    "model": "BaseData.Traits",
+    "pk": 22,
+    "fields": {
+      "name": "Sniper"
+    }
+  },
+  {
+    "model": "BaseData.Traits",
+    "pk": 23,
+    "fields": {
+      "name": "Socialite"
+    }
+  },
+  {
+    "model": "BaseData.Traits",
+    "pk": 24,
+    "fields": {
+      "name": "Syndicate"
+    }
+  },
+  {
+    "model": "BaseData.Traits",
+    "pk": 25,
+    "fields": {
+      "name": "Transformer"
+    }
+  },
+  {
+    "model": "BaseData.Traits",
+    "pk": 26,
+    "fields": {
+      "name": "Twinshot"
+    }
+  },
+  {
+    "model": "BaseData.Traits",
+    "pk": 27,
+    "fields": {
+      "name": "Yordle"
+    }
+  },
+  {
+    "model": "BaseData.Champion",
+    "pk": 1,
+    "fields": {
+      "value": "1",
+      "name": "Caitlyn",
+      "traits": [12,22]
+    }
+  },
+  {
+    "model": "BaseData.Champion",
+    "fields": {
+      "value": "1",
+      "name": "Camille",
+      "traits": [6,9]
+    }
+  },
+  {
+    "model": "BaseData.Champion",
+    "fields": {
+      "value": "1",
+      "name": "Darius",
+      "traits": [4,24]
+    }
+  },
+  {
+    "model": "BaseData.Champion",
+    "fields": {
+      "value": "1",
+      "name": "Ezreal",
+      "traits": [15,20]
+    }
+  },
+  {
+    "model": "BaseData.Champion",
+    "fields": {
+      "value": "1",
+      "name": "Garen",
+      "traits": [1,18]
+    }
+  },
+  {
+    "model": "BaseData.Champion",
+    "fields": {
+      "value": "1",
+      "name": "Graves",
+      "traits": [1,26]
+    }
+  },
+  {
+    "model": "BaseData.Champion",
+    "fields": {
+      "value": "1",
+      "name": "Illaoi",
+      "traits": [5,16]
+    }
+  },
+  {
+    "model": "BaseData.Champion",
+    "fields": {
+      "value": "1",
+      "name": "Kassadin",
+      "traits": [17,18]
+    }
+  },
+  {
+    "model": "BaseData.Champion",
+    "fields": {
+      "value": "1",
+      "name": "Poppy",
+      "traits": [4,27]
+    }
+  },
+  {
+    "model": "BaseData.Champion",
+    "fields": {
+      "value": "1",
+      "name": "Singed",
+      "traits": [7,15]
+    }
+  },
+  {
+    "model": "BaseData.Champion",
+    "fields": {
+      "value": "1",
+      "name": "Twisted Fate",
+      "traits": [2,24]
+    }
+  },
+  {
+    "model": "BaseData.Champion",
+    "fields": {
+      "value": "1",
+      "name": "Twitch",
+      "traits": [3,7]
+    }
+  },
+  {
+    "model": "BaseData.Champion",
+    "fields": {
+      "value": "1",
+      "name": "Ziggs",
+      "traits": [2,20,27]
+    }
+  },
+  {
+    "model": "BaseData.BasicItem",
+    "pk": 1,
+    "fields": {
+      "name": "Chain vest"
+    }
+  },
+  {
+    "model": "BaseData.BasicItem",
+    "pk": 2,
+    "fields": {
+      "name": "Cloak"
+    }
+  },
+  {
+    "model": "BaseData.BasicItem",
+    "pk": 3,
+    "fields": {
+      "name": "Bow"
+    }
+  },
+  {
+    "model": "BaseData.BasicItem",
+    "pk": 4,
+    "fields": {
+      "name": "Rod"
+    }
+  },
+  {
+    "model": "BaseData.BasicItem",
+    "pk": 5,
+    "fields": {
+      "name": "Glove"
+    }
+  },
+  {
+    "model": "BaseData.BasicItem",
+    "pk": 6,
+    "fields": {
+      "name": "Tear"
+    }
+  },
+  {
+    "model": "BaseData.BasicItem",
+    "pk": 7,
+    "fields": {
+      "name": "Belt"
+    }
+  },
+  {
+    "model": "BaseData.BasicItem",
+    "pk": 8,
+    "fields": {
+      "name": "Sword"
+    }
+  },
+  {
+    "model": "BaseData.BasicItem",
+    "pk": 9,
+    "fields": {
+      "name": "Spatula"
+    }
+  },
+  {
+    "model": "BaseData.Item",
+    "fields": {
+      "name": "Branble Vest",
+      "component_1": 1,
+      "component_2": 1
+    }
+  },
+  {
+    "model": "BaseData.Item",
+    "fields": {
+      "name": "Gargoyle Stoneplate",
+      "component_1": 1,
+      "component_2": 2
+    }
+  },
+  {
+    "model": "BaseData.Item",
+    "fields": {
+      "name": "Titan's Resolve",
+      "component_1": 1,
+      "component_2": 3
+    }
+  },
+  {
+    "model": "BaseData.Item",
+    "fields": {
+      "name": "Locket",
+      "component_1": 1,
+      "component_2": 4
+    }
+  },
+  {
+    "model": "BaseData.Item",
+    "fields": {
+      "name": "Shroud",
+      "component_1": 1,
+      "component_2": 5
+    }
+  },
+  {
+    "model": "BaseData.Item",
+    "fields": {
+      "name": "Frozen heart",
+      "component_1": 1,
+      "component_2": 6
+    }
+  },
+  {
+    "model": "BaseData.Item",
+    "fields": {
+      "name": "Sunfire",
+      "component_1": 1,
+      "component_2": 7
+    }
+  },
+  {
+    "model": "BaseData.Item",
+    "fields": {
+      "name": "GA",
+      "component_1": 1,
+      "component_2": 8
+    }
+  },
+  {
+    "model": "BaseData.Item",
+    "fields": {
+      "name": "Syndicate",
+      "component_1": 1,
+      "component_2": 9
+    }
+  },
+  {
+    "model": "BaseData.Item",
+    "fields": {
+      "name": "Dragon claw",
+      "component_1": 2,
+      "component_2": 2
+    }
+  },
+  {
+    "model": "BaseData.Item",
+    "fields": {
+      "name": "Runaans",
+      "component_1": 2,
+      "component_2": 3
+    }
+  },
+  {
+    "model": "BaseData.Item",
+    "fields": {
+      "name": "Ionic Spark",
+      "component_1": 2,
+      "component_2": 4
+    }
+  },
+  {
+    "model": "BaseData.Item",
+    "fields": {
+      "name": "QSS",
+      "component_1": 2,
+      "component_2": 5
+    }
+  },
+  {
+    "model": "BaseData.Item",
+    "fields": {
+      "name": "Chalice",
+      "component_1": 2,
+      "component_2": 6
+    }
+  },
+  {
+    "model": "BaseData.Item",
+    "fields": {
+      "name": "Zephir",
+      "component_1": 2,
+      "component_2": 7
+    }
+  },
+  {
+    "model": "BaseData.Item",
+    "fields": {
+      "name": "BT",
+      "component_1": 2,
+      "component_2": 8
+    }
+  },
+  {
+    "model": "BaseData.Item",
+    "fields": {
+      "name": "Mutant",
+      "component_1": 2,
+      "component_2": 9
+    }
+  },
+  {
+    "model": "BaseData.Item",
+    "fields": {
+      "name": "Rapid Fire Cannon",
+      "component_1": 3,
+      "component_2": 3
+    }
+  },
+  {
+    "model": "BaseData.Item",
+    "fields": {
+      "name": "Guinsoo rageblade",
+      "component_1": 3,
+      "component_2": 4
+    }
+  },
+  {
+    "model": "BaseData.Item",
+    "fields": {
+      "name": "LW",
+      "component_1": 3,
+      "component_2": 5
+    }
+  },
+  {
+    "model": "BaseData.Item",
+    "fields": {
+      "name": "shiv",
+      "component_1": 3,
+      "component_2": 6
+    }
+  },
+  {
+    "model": "BaseData.Item",
+    "fields": {
+      "name": "zzrot",
+      "component_1": 3,
+      "component_2": 7
+    }
+  },
+  {
+    "model": "BaseData.Item",
+    "fields": {
+      "name": "Giant Slayer",
+      "component_1": 3,
+      "component_2": 8
+    }
+  },
+  {
+    "model": "BaseData.Item",
+    "fields": {
+      "name": "Challenger",
+      "component_1": 3,
+      "component_2": 9
+    }
+  },
+  {
+    "model": "BaseData.Item",
+    "fields": {
+      "name": "Deathcap",
+      "component_1": 4,
+      "component_2": 4
+    }
+  },
+  {
+    "model": "BaseData.Item",
+    "fields": {
+      "name": "JG",
+      "component_1": 4,
+      "component_2": 5
+    }
+  },
+  {
+    "model": "BaseData.Item",
+    "fields": {
+      "name": "Archangel",
+      "component_1": 4,
+      "component_2": 6
+    }
+  },
+  {
+    "model": "BaseData.Item",
+    "fields": {
+      "name": "Morello",
+      "component_1": 4,
+      "component_2": 7
+    }
+  },
+  {
+    "model": "BaseData.Item",
+    "fields": {
+      "name": "Gunblade",
+      "component_1": 4,
+      "component_2": 8
+    }
+  },
+  {
+    "model": "BaseData.Item",
+    "fields": {
+      "name": "Arcanist",
+      "component_1": 4,
+      "component_2": 9
+    }
+  },
+  {
+    "model": "BaseData.Item",
+    "fields": {
+      "name": "Thieves Gloves",
+      "component_1": 5,
+      "component_2": 5
+    }
+  },
+  {
+    "model": "BaseData.Item",
+    "fields": {
+      "name": "HOJ",
+      "component_1": 5,
+      "component_2": 6
+    }
+  },
+  {
+    "model": "BaseData.Item",
+    "fields": {
+      "name": "Trap Claw",
+      "component_1": 5,
+      "component_2": 7
+    }
+  },
+  {
+    "model": "BaseData.Item",
+    "fields": {
+      "name": "IE",
+      "component_1": 5,
+      "component_2": 8
+    }
+  },
+  {
+    "model": "BaseData.Item",
+    "fields": {
+      "name": "Assassin",
+      "component_1": 5,
+      "component_2": 9
+    }
+  },
+  {
+    "model": "BaseData.Item",
+    "fields": {
+      "name": "Blue buff",
+      "component_1": 6,
+      "component_2": 6
+    }
+  },
+  {
+    "model": "BaseData.Item",
+    "fields": {
+      "name": "Redemption",
+      "component_1": 6,
+      "component_2": 7
+    }
+  },
+  {
+    "model": "BaseData.Item",
+    "fields": {
+      "name": "Sojin",
+      "component_1": 6,
+      "component_2": 8
+    }
+  },
+  {
+    "model": "BaseData.Item",
+    "fields": {
+      "name": "Academy",
+      "component_1": 6,
+      "component_2": 9
+    }
+  },
+  {
+    "model": "BaseData.Item",
+    "fields": {
+      "name": "Warmogs",
+      "component_1": 7,
+      "component_2": 7
+    }
+  },
+  {
+    "model": "BaseData.Item",
+    "fields": {
+      "name": "Zeke",
+      "component_1": 7,
+      "component_2": 8
+    }
+  },
+  {
+    "model": "BaseData.Item",
+    "fields": {
+      "name": "Chemtech",
+      "component_1": 7,
+      "component_2": 9
+    }
+  },
+    {
+    "model": "BaseData.Item",
+    "fields": {
+      "name": "Deathblade",
+      "component_1": 8,
+      "component_2": 8
+    }
+  },
+  {
+    "model": "BaseData.Item",
+    "fields": {
+      "name": "GA",
+      "component_1": 8,
+      "component_2": 9
+    }
+  },
+  {
+    "model": "BaseData.Item",
+    "fields": {
+      "name": "FON",
+      "component_1": 9,
+      "component_2": 9
+    }
+  },
+  {
+    "model": "BaseData.Item",
+    "fields": {
+      "name": "FON",
+      "component_1": 9,
+      "component_2": 9
+    }
+  },
+    {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Academy Heart"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Arcanist Heart"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Ascension"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Assassin Heart"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Binary Airdrop"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Bodyguard Heart"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Bruiser Heart"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Built Different 1"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Built Different 2"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Built Different 3"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Calculated Loss"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Celestial Blessing 1"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Celestial Blessing 2"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Celestial Blessing 3"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Challenger Heart"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Chemical Overload 1"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Chemical Overload 2"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Chemical Overload 3"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Chemtech Heart"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Clockwork Heart"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Cutthroat"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Cybernetic Implants 1"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Cybernetic Implants 2"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Cybernetic Implants 3"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Dominance"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Dual Rule"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Duet"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "En Garde"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Enchanter Heart"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Enforcer Heart"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Exiles 1"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Exiles 2"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Exiles 3"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Featherweights 1"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Featherweights 2"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "First Aid Kit"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Hyper Roll"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Imperial Heart"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Inovator Heart"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Item Grab Bag 1"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Item Grab Bag 2"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Knife's Edge 1"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Knife's Edge 2"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Knife's Edge 3"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Makeshift Armor 1"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Makeshift Armor 2"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Makeshift Armor 3"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Mercenary Heart"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Mutant Heart"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "One For All"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Pandora's Items"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Phony Frontline"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Pirates"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Protector Heart"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Runic Shield 1"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Runic Shield 2"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Runic Shield 3"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Scholar Heart"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Scrap Heart"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Self-repair"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Sniper Heart"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Sniper's Nest"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "So Small"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Socialite Heart"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Stand Behind Me"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Stand United 1"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Stand United 2"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Stand United 3"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Syndicate Heart"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Thrill of the Hunt 1"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Thrill of the Hunt 2"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Thrill of the Hunt 3"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Tinker"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Twinshot Heart"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Underdogs"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Unstable Evolution"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Weakspot"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "A New Challenger"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Academy Honors"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "All For One"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Ancient Archives"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Arcane Sigil"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Ardent Censer"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Armor Plating"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Beef Up"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Bulwark"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Clear Mind"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Cram Session"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Deadeye"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Element X"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Experiment 13-37"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Gold Reserves"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Hidden Blade"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "High Roller"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Hired Gun"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Imperial Banner"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Instant Injection"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Junkyard"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Lifelong Learning"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "March of Progress"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Metabolic Accelerator"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Metal Detector"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Payday"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Rich Get Richer"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Safety Vest"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Salvage Bin"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Shady Business"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Sharpshooter"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Shrug It Off"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Smoke Bomb"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Spell Blade"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Sunfire Board"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Tick Tock"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Titanic Force"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Trade Sector"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Valedictorian"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Wise Spending"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Woodland Charm"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Academy Soul"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Arcanist Soul"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Assassin Soul"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Band of Thieves"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Bodygard Soul"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Broken Stopwatch"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Bruiser Soul"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Challenger Soul"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Chemtech Soul"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Clockwork Soul"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Enchanter Soul"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Enforcer Soul"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Featherweights 3"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Golden Ticket"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Hight End Shopping"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Imperial Soul"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Innovator Soul"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Level Up!"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Mercenary Soul"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Mutant Soul"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "New Recruit"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Portable Forge"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Protector Soul"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Scholar Soul"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Scrap Soul"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Share the Spotlight"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Sniper Soul"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Socialite Soul"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Syndicate Soul"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Windfall"
+    }
+  },
+  {
+    "model": "BaseData.Augment",
+    "fields": {
+      "name": "Twinshot Soul",
+    }
+  }
+]
