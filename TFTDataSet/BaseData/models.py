@@ -42,4 +42,4 @@ class Item(models.Model):
 class Augment(models.Model):
     id = models.AutoField(primary_key=True)
     name   = models.CharField(max_length=250)
-    rarity =  models.IntegerField([MaxValueValidator(3)])
+    rarity =  models.IntegerField([MaxValueValidator(3)], null=True)
