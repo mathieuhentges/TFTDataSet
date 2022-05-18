@@ -8,6 +8,8 @@ __pycache__/
 venvs/
 .env
 .idea/
+script.py
+.DS_Store
 
 # Distribution / packaging
 .Python

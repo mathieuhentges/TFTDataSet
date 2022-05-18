@@ -1,0 +1,5 @@
+version: "2"
+syncs:
+  webtft-sync:
+    src: '/Users/mathieu/project/TFTDataSet/TFTDataSet'
+    sync_strategy: 'unison'

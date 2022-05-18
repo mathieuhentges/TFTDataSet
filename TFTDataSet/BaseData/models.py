@@ -5,12 +5,14 @@ from django.db import models
 class Traits(models.Model):
     id = models.AutoField(primary_key=True)
     name  = models.CharField(max_length=250)
+    riot_id = models.CharField(max_length=250)
 
     def __str__(self):
         return self.name
 
 class Champion(models.Model):
     id = models.AutoField(primary_key=True)
+    riot_id = models.CharField(max_length=250)
     value = models.IntegerField(validators=[MaxValueValidator(5)])
     name  = models.CharField(max_length=250)
     traits = models.ManyToManyField(
@@ -25,13 +27,15 @@ class Champion(models.Model):
 class BasicItem(models.Model):
     id = models.AutoField(primary_key=True)
     name  = models.CharField(max_length=250)
+    riot_id = models.CharField(max_length=250)
 
     def __str__(self):
         return self.name
 
 class Item(models.Model):
-    id = models.AutoField(primary_key=True)
+    id          = models.AutoField(primary_key=True)
     name        = models.CharField(max_length=250)
+    riot_id     = models.CharField(max_length=250)
     component_1 = models.ForeignKey("BasicItem", on_delete=models.CASCADE, related_name='first_component')
     component_2 = models.ForeignKey("BasicItem", on_delete=models.CASCADE, related_name='second_component')
 
@@ -40,6 +44,7 @@ class Item(models.Model):
         return self.name
 
 class Augment(models.Model):
-    id = models.AutoField(primary_key=True)
-    name   = models.CharField(max_length=250)
-    rarity =  models.IntegerField([MaxValueValidator(3)], null=True)
+    id      = models.AutoField(primary_key=True)
+    name    = models.CharField(max_length=250)
+    rarity  =  models.IntegerField([MaxValueValidator(3)], null=True)
+    riot_id = models.CharField(max_length=250)
